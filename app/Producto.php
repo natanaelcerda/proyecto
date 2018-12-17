@@ -1,0 +1,13 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Producto extends Model
+{
+
+  protected $fillable = [
+      'name', 'department', 'price','itbis','desc','cant','description'
+  ];
+}
